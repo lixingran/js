@@ -35,14 +35,13 @@
         <h6>width:100%;</h6>
         <h6>background: #ccc;</h6>
     <h6>}</h6>
- <h6>  
- <div class="container"></h6>
+    
+ <h6><div class="container"></h6>
      <h6> <div id="center" class="colmun"></h6>
          <h6> <div class="aa"></div></h6>
      <h6> </div></h6>
      <h6> <div id="left" class="colmun"></div></h6>
      <h6> <div id="right" class="colmun"></div></h6>
- <h6> </div>
-</h6>
+ <h6> </div></h6>
 
        
