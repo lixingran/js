@@ -36,13 +36,13 @@
         <h6>background: #ccc;</h6>
     <h6>}</h6>
  <h6>  
- <div class="container">
-    <div id="center" class="colmun">
-        <div class="aa"></div>
-    </div>
-    <div id="left" class="colmun"></div>
-    <div id="right" class="colmun"></div>
-</div>
+ <div class="container"></h6>
+     <h6> <div id="center" class="colmun"></h6>
+         <h6> <div class="aa"></div></h6>
+     <h6> </div></h6>
+     <h6> <div id="left" class="colmun"></div></h6>
+     <h6> <div id="right" class="colmun"></div></h6>
+ <h6> </div>
 </h6>
 
        
