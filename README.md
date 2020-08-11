@@ -35,7 +35,7 @@
         <h6>width:100%;</h6>
         <h6>background: #ccc;</h6>
     <h6>}</h6>
-    
+ <h6>  
  <div class="container">
     <div id="center" class="colmun">
         <div class="aa"></div>
@@ -43,5 +43,6 @@
     <div id="left" class="colmun"></div>
     <div id="right" class="colmun"></div>
 </div>
+</h6>
 
        
