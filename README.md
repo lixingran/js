@@ -11,4 +11,38 @@
 <h6>fn3()</h6>
 <h6>fn3就是fn2  fn记住了并且访问了他的此法作用域，fn2在此法作用域之外</h6>
 
+<h1>css三列布局</h1>
+<h2>已知左右宽度</h2>
+<h6>css双飞翼</h6>
+    <h6>.container{</h6>
+        <h6>min-width:600px;</h6>
+    <h6>}</h6>
+    <h6>.colmun{</h6>
+        <h6>float:left;</h6>
+        <h6>height: 200px;</h6>
+    <h6>}</h6>
+    <h6>#left{</h6>
+        <h6>width:200px;</h6>
+        <h6>background: red;</h6>
+        <h6>margin-left:-100%;</h6>
+    <h6>}</h6>
+    <h6>#right{</h6>
+        <h6>width:200px;</h6>
+        <h6>background: red;</h6>
+        <h6>margin-left: -200px;</h6>
+    <h6>}</h6>
+    <h6>#center{</h6>
+        <h6>width:100%;</h6>
+        <h6>background: #ccc;</h6>
+    <h6>}</h6>
+    
+    <h6><div class="container"></h6>
+    <h6><div id="center" class="colmun"></h6>
+        <h6><div class="aa"></div></h6>
+    <h6></div></h6>
+    <h6><div id="left" class="colmun"></div></h6>
+    <h6><div id="right" class="colmun"></div></h6>
+
+<h6></div></h6>
+
        
