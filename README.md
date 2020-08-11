@@ -13,7 +13,7 @@
 
 <h1>css三列布局</h1>
 <h2>已知左右宽度</h2>
-<h6>css双飞翼</h6>
+<h6>css双飞翼(无定位)</h6>
     <h6>.container{</h6>
         <h6>min-width:600px;</h6>
     <h6>}</h6>
@@ -46,5 +46,38 @@
      <h6><div id="left" class="colmun"></div></h6>
      <h6><div id="right" class="colmun"></div></h6>
  <h6></div></h6>
+ 
+ <h6>css圣杯(定位)</h6>
+   <h6>.container{</h6>
+        <h6>min-width:600px;</h6>
+        <h6>padding:0 200px;</h6>
+    <h6>}</h6>
+    <h6>.colmun{</h6>
+        <h6>float:left;</h6>
+        <h6>height: 200px;</h6>
+        <h6>position: relative;</h6>
+    <h6>}</h6>
+    <h6>#left{</h6>
+      <h6>width:200px;</h6>
+      <h6>background: red;</h6>
+      <h6>margin-left: -100%;</h6>
+      <h6>right:200px;</h6>
+    <h6>}</h6>
+    <h6>#right{</h6>
+        <h6>background: red;</h6>
+        <h6>width:200px;</h6>
+        <h6>margin-right: -200px;</h6>
+    }
+    <h6>#center{</h6>
+        <h6>width:100%;</h6>
+        <h6>background: #ccc;</h6>
+    <h6>}</h6>
+    <div class="container">
+    <div id="center" class="colmun">
+        222
+    </div>
+    <div id="left" class="colmun">22</div>
+    <div id="right" class="colmun">33</div>
+</div>
 
        
